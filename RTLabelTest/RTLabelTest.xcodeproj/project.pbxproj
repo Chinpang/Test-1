@@ -13,6 +13,13 @@
 		0847B4FF1B704CD6006500E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0847B4FE1B704CD6006500E9 /* Images.xcassets */; };
 		0847B5021B704CD6006500E9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0847B5001B704CD6006500E9 /* LaunchScreen.xib */; };
 		0847B50E1B704CD6006500E9 /* RTLabelTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0847B50D1B704CD6006500E9 /* RTLabelTestTests.m */; };
+		0847B5191B705201006500E9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0847B5181B705201006500E9 /* MainViewController.m */; };
+		0847B5221B705294006500E9 /* License.html in Resources */ = {isa = PBXBuildFile; fileRef = 0847B51B1B705294006500E9 /* License.html */; };
+		0847B5231B705294006500E9 /* License.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0847B51C1B705294006500E9 /* License.rtf */; };
+		0847B5241B705294006500E9 /* RegexKitLite.html in Resources */ = {isa = PBXBuildFile; fileRef = 0847B51E1B705294006500E9 /* RegexKitLite.html */; };
+		0847B5251B705294006500E9 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 0847B51F1B705294006500E9 /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0847B5261B705294006500E9 /* RTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0847B5211B705294006500E9 /* RTLabel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0847B5281B705315006500E9 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0847B5271B705315006500E9 /* libicucore.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +44,16 @@
 		0847B5071B704CD6006500E9 /* RTLabelTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTLabelTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0847B50C1B704CD6006500E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0847B50D1B704CD6006500E9 /* RTLabelTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTLabelTestTests.m; sourceTree = "<group>"; };
+		0847B5171B705201006500E9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		0847B5181B705201006500E9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		0847B51B1B705294006500E9 /* License.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = License.html; sourceTree = "<group>"; };
+		0847B51C1B705294006500E9 /* License.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = License.rtf; sourceTree = "<group>"; };
+		0847B51D1B705294006500E9 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		0847B51E1B705294006500E9 /* RegexKitLite.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = RegexKitLite.html; sourceTree = "<group>"; };
+		0847B51F1B705294006500E9 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		0847B5201B705294006500E9 /* RTLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTLabel.h; sourceTree = "<group>"; };
+		0847B5211B705294006500E9 /* RTLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTLabel.m; sourceTree = "<group>"; };
+		0847B5271B705315006500E9 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0847B5281B705315006500E9 /* libicucore.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +78,10 @@
 		0847B4E91B704CD6006500E9 = {
 			isa = PBXGroup;
 			children = (
+				0847B5271B705315006500E9 /* libicucore.dylib */,
+				0847B51A1B705294006500E9 /* RegexKitLite-4.0 */,
+				0847B5171B705201006500E9 /* MainViewController.h */,
+				0847B5181B705201006500E9 /* MainViewController.m */,
 				0847B4F41B704CD6006500E9 /* RTLabelTest */,
 				0847B50A1B704CD6006500E9 /* RTLabelTestTests */,
 				0847B4F31B704CD6006500E9 /* Products */,
@@ -112,6 +134,20 @@
 				0847B50C1B704CD6006500E9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0847B51A1B705294006500E9 /* RegexKitLite-4.0 */ = {
+			isa = PBXGroup;
+			children = (
+				0847B51B1B705294006500E9 /* License.html */,
+				0847B51C1B705294006500E9 /* License.rtf */,
+				0847B51D1B705294006500E9 /* RegexKitLite.h */,
+				0847B51E1B705294006500E9 /* RegexKitLite.html */,
+				0847B51F1B705294006500E9 /* RegexKitLite.m */,
+				0847B5201B705294006500E9 /* RTLabel.h */,
+				0847B5211B705294006500E9 /* RTLabel.m */,
+			);
+			path = "RegexKitLite-4.0";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,7 +231,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0847B4FD1B704CD6006500E9 /* RTLabelTest-Prefix.pch in Resources */,
+				0847B5231B705294006500E9 /* License.rtf in Resources */,
 				0847B5021B704CD6006500E9 /* LaunchScreen.xib in Resources */,
+				0847B5241B705294006500E9 /* RegexKitLite.html in Resources */,
+				0847B5221B705294006500E9 /* License.html in Resources */,
 				0847B4FF1B704CD6006500E9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,7 +253,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0847B5261B705294006500E9 /* RTLabel.m in Sources */,
 				0847B4FB1B704CD6006500E9 /* AppDelegate.m in Sources */,
+				0847B5191B705201006500E9 /* MainViewController.m in Sources */,
+				0847B5251B705294006500E9 /* RegexKitLite.m in Sources */,
 				0847B4F81B704CD6006500E9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,6 +442,7 @@
 				0847B5131B704CD6006500E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0847B5141B704CD6006500E9 /* Build configuration list for PBXNativeTarget "RTLabelTestTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +451,7 @@
 				0847B5161B704CD6006500E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
